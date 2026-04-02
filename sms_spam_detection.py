@@ -1,8 +1,3 @@
-"""
- Intelligent SMS Spam Detection for Mobile Communication Networks
- CSE 476/575 Term Project - Spring 2026
- Student: Ibrahim Al Said | Instructor: Prof. Dr. Hasari Celebi
-"""
 
 import pandas as pd
 import numpy as np
@@ -145,7 +140,6 @@ def evaluate_model(model, X_test, y_test):
     return acc
 
 
-# ── Step 8: Live Demo ───────────────────────────────────────────────────────
 def live_demo(model, tfidf):
     print("=" * 60)
     print("  STEP 8: Live Prediction Demo")
